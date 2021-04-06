@@ -41,18 +41,18 @@
 }
 
 .option-element {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 
 .task,
 .option-list__headline {
-    list-style:none;
+    list-style: none;
 }
 
 .input,
 .button{
-    outline:none;
+    outline: none;
 }
 
 .button {
@@ -88,15 +88,15 @@
     line-height: 18px;
     height: 21px;
     padding: 0 9px;
-    border: 1px solid #dDd;
-    background: #FFF;
+    border: 1px solid rgb(221, 221, 221);
+    background: rgb(255, 255, 255);
     border-radius: 6px;
     font-family: Lato, sans-serif;
-    color: #888;
+    color: rgb(136, 136, 136);
 }
 
 .input--text:focus {
-    color: #333;
+    color: rgb(51, 51, 51);
 }
 
 /* New Task */
@@ -111,7 +111,7 @@
 }
 
 .button--add:hover {
-    color: #0FC57C;
+    color: rgb(15, 197, 124);
 }
 
 /* Task list */
@@ -160,20 +160,20 @@
 
 /* Completed */
 #option-list__completed .label {
-    text-decoration: line-through
-    color: #888;
+    text-decoration: line-through;
+    color: rgb(136, 136, 136);
 }
 
 /* Edit Task */
 .option-element .task .input--text {
-    display:none
+    display: none
 }
 
 .option-element .task--edit .input--text {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .task--edit .label {
-    display:none;
+    display: none;
 }
